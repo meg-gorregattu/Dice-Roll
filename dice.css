@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F49097;
+}
+
+header {
+    margin-bottom: 40px;
+    padding: 0px;
+}
+
+
+div {
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #F2F5FF;
+    border-radius: 10px;
+    background-color: #F2F5FF;
+   }
+
+#dot {
+    height: 20px;
+    width: 20px;
+    color: black;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+
+ .one {
+    margin-left: 90px;
+    margin-top: 90px;
+}
+
+
+
+.two {
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 110px 110px 0px black; 
+}
+
+.three {
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 120px 120px 0px black,
+                60px 60px 0px black;
+}
+
+.four {
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 120px 120px 0px black,
+                120px 0px 0px black,
+                0px 120px 0px black;   
+}
+
+.five {
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 120px 120px 0px black,
+                120px 0px 0px black,
+                0px 120px 0px black,
+                60px 60px 0px black;  
+}
+
+.six {
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 120px 120px 0px black,
+                120px 0px 0px black,
+                0px 120px 0px black,
+                120px 60px 0px black,
+                0px 60px 0px black;
+} 
+
+button {
+    margin-top: 40px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+button:active {
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+
